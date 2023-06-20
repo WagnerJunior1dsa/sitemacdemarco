@@ -1,0 +1,201 @@
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.cdnfonts.com/css/inkyflutterby');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to right, #afacac, #8ccbd3);
+    scroll-behavior: smooth;
+}
+
+nav {
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px;
+    align-items: left;
+    font-size: 35px;
+    background-color: white;
+    margin-right: 1600px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav li {
+    text-decoration: none;
+    font-size: 45px;
+    position: relative;
+    left: -10%;
+    /* Inicia a partir da esquerda */
+    transition: left 2s, color 0.5s;
+    /* Duração da transição */
+    white-space: nowrap;
+    /* Impede que o texto quebre em várias linhas */
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.macdemarco {
+    width: 120px;
+    height: 120px;
+}
+
+.issodai {
+    margin-right: 125px;
+}
+
+.xd {
+    font-family: 'inkyflutterby', sans-serif;
+    color: aquamarine;
+
+}
+
+.xd2 {
+    font-family: 'inkyflutterby', sans-serif;
+    color: aquamarine;
+    font-size: 35px;
+}
+
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav li:hover {
+    left: 5%;
+    color: aquamarine;
+}
+
+nav li:hover::after {
+    color: aquamarine;
+}
+
+.sectionfake {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 340px;
+
+}
+
+.site {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.site img {
+    margin-left: 70px;
+}
+
+.hr2 {
+    margin-right: 20px;
+    border: none;
+}
+
+p {
+    margin-right: 100px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.h1zica {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.h1zica2 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 50px;
+    font-size: 35px;
+    margin-left: 200px;
+}
+
+.site2 {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site2 img {
+    margin-right: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.box {
+    display: flex;
+}
+
+.musicastexto {
+
+
+    display: flex;
+}
+
+th img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    height: 150px;
+    width: 150px;
+    align-items: center;
+}
+
+table {
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 300px;
+    display: block;
+
+}
+
+.mano {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.macdemarcozica {
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+/* lulu */
+
+.texto-lulu {
+    width: 900px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Cor da barra */
+::-webkit-scrollbar-thumb {
+    background-color: aquamarine;
+}
+
+textarea {
+    resize: none;
+}
+
+.xd4 {
+    font-size: 28px;
+}
